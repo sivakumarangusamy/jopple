@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "186179923089",
+    "project_id": "jopple",
+    "storage_bucket": "jopple.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186179923089:android:7be14af082e7e11fe6a330",
+        "android_client_info": {
+          "package_name": "com.example.jopple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186179923089-2dl4p2j8sf9nfcaj17iqje514g54n4sa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jopple",
+            "certificate_hash": "686f1fab06631d55701d04a25da1139fb4cddbfd"
+          }
+        },
+        {
+          "client_id": "186179923089-e2dr0caec00hdcl6071c8j52d9mn7v3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3vPC8amIza1B85WAps5bng6mTVA4mvu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186179923089-e2dr0caec00hdcl6071c8j52d9mn7v3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

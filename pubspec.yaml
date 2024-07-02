@@ -1,0 +1,102 @@
+name: jopple
+description: A new Flutter project.
+
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+location:
+  git:
+    url: https://github.com/781flyingdutchman/flutterlocation.git
+    ref: V4
+    path: packages/location
+
+dependencies:
+  flutter:       # Required for every Flutter project
+    sdk: flutter # Required for every Flutter project
+  google_sign_in: ^6.2.1
+  email_validator: '^2.1.16'
+  flutter_localizations: # Required to enable localization
+    sdk: flutter         # Required to enable localization
+  firebase_auth: ^4.19.2
+  firebase_core: ^2.32.0
+  animated_text_kit: ^4.2.2
+  font_awesome_flutter: ^9.2.0
+  firebase_app_check: ^0.2.2+4
+  lottie: ^1.0.1
+  vibration: ^1.8.4
+  simple_shadow: ^0.3.1
+  flare_flutter: ^3.0.0 # for animations
+  soundpool: ^2.4.1
+  typewritertext: ^3.0.3
+  flutter_glow: ^0.3.0
+  pulsator: ^1.0.0
+  cloud_firestore: ^4.17.2
+  table_calendar: ^3.0.2
+  textfield_tags: ^3.0.1
+  material_tag_editor: 0.1.2
+  super_tag_editor: 0.2.0
+  avatar_glow: 2.0.1
+  visibility_detector: ^0.2.0
+  flutter_svg: ^2.0.10+1
+  rxdart: ^0.27.3
+  file_picker: ^5.2.0+1
+  permission_handler: ^10.2.0
+  flutter_local_notifications: ^12.0.0
+  device_info_plus: ^9.0.2
+  firebase_storage: ^11.7.7
+  url_launcher: ^6.1.6
+  dropdown_button2: ^2.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter # Required for a Flutter project that includes tests
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: cour
+      fonts:
+        - asset: fonts/cour.ttf
+    - family: was
+      fonts:
+        - asset: fonts/wasabi.ttf
+    - family: rowdy
+      fonts:
+        - asset: fonts/rowdies.ttf
+    - family: anta
+      fonts:
+        - asset: fonts/anta.ttf
+
+  uses-material-design: true # Required if you use the Material icon font
+
+  generate: true # Enables generation of localized strings from arb files
+
+  assets:
+    - images/job.png
+    - images/job mini.png
+    - images/team.png
+    - images/email_check.png
+    - images/phone_check.png
+    - images/jp1.png
+    - images/jp2.png
+    - images/jp3.png
+    - images/jp4.png
+    - images/jp5.png
+    - images/form.json
+    - images/login.json
+    - images/vfailed.json
+    - images/otpw.json
+    - images/load.json
+    - images/tick.json
+    - images/key.json
+    - images/spaceship.png
+    - images/infinity.json
+    - images/loop.json
+    - images/jp.png
+    - sounds/type.mp3
+    - images/emp.png
+    - images/hire.png
+    - images/back-button.png
