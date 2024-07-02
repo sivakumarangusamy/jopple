@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB9Mj2vuQsk_Zc1cVJu1ErmOMTdLNqlrhY',
+    apiKey: "", // API Key
     appId: '1:186179923089:web:35259b387d0d3336e6a330',
     messagingSenderId: '186179923089',
     projectId: 'jopple',
@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC3vPC8amIza1B85WAps5bng6mTVA4mvu8',
+    apiKey: "", // API Key
     appId: '1:186179923089:android:7be14af082e7e11fe6a330',
     messagingSenderId: '186179923089',
     projectId: 'jopple',
@@ -59,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCJrUFD5ONuasl0W3jJOdL_bffVJSjRzeU',
+    apiKey: "", // API Key
     appId: '1:186179923089:ios:d597570c93677ad6e6a330',
     messagingSenderId: '186179923089',
     projectId: 'jopple',
@@ -70,7 +70,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCJrUFD5ONuasl0W3jJOdL_bffVJSjRzeU',
+    apiKey: "", // API Key
     appId: '1:186179923089:ios:d597570c93677ad6e6a330',
     messagingSenderId: '186179923089',
     projectId: 'jopple',
@@ -81,7 +81,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyB9Mj2vuQsk_Zc1cVJu1ErmOMTdLNqlrhY',
+    apiKey: "", // API Key
     appId: '1:186179923089:web:d495ce3bd7bc8388e6a330',
     messagingSenderId: '186179923089',
     projectId: 'jopple',
